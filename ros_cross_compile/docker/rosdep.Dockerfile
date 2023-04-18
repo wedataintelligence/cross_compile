@@ -3,7 +3,7 @@
 # Requirements:
 #  * mount a colcon workspace at /ws
 #  * see gather_rosdeps.sh for all-caps required input environment
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
       dirmngr \
